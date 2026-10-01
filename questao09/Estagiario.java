@@ -1,3 +1,5 @@
+package questao09;
+
 public class Estagiario implements Pagavel {
     private double bolsa;
     private double auxilios;

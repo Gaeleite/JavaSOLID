@@ -1,3 +1,5 @@
+package questao09;
+
 public class Chefe implements Pagavel {
     private double salarioBase;
     private double bonificacoes;

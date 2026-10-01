@@ -1,3 +1,5 @@
+package questao09;
+
 public class Funcionario implements Pagavel {
     private double salario;
     private double bonus;

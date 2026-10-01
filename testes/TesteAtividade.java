@@ -1,3 +1,26 @@
+package testes;
+
+import questao09.Chefe;
+import questao09.Estagiario;
+import questao09.Funcionario;
+import questao09.PagadorDeFuncionario;
+import questao10.EncargoPadrao;
+import questao10.Movimentacao;
+import questao10.SemEncargos;
+import questao11.Arrojado;
+import questao11.Conservador;
+import questao11.Conta;
+import questao11.Moderado;
+import questao11.RealizadorDeInvestimentos;
+import questao12.CargaFragil;
+import questao12.CargaLeve;
+import questao12.CalculadoraFrete;
+import questao12.EntregaExpressa;
+import questao12.FreteGratis;
+import questao12.RegiaoRural;
+import questao12.RegiaoUrbana;
+import questao12.ValorBase;
+
 public class TesteAtividade {
     public static void main(String[] args) {
         System.out.println("=== QUESTAO 09 ===");

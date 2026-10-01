@@ -1,11 +1,15 @@
+package questao11;
+
 public class RealizadorDeInvestimentos {
-    private Investimento investimento;
+    private static final double PERCENTUAL_DE_RENDIMENTO_DEPOSITADO = 0.75;
+
+    private final Investimento investimento;
 
     public RealizadorDeInvestimentos(Investimento investimento) {
-        this.investimento = investimento;
+        this.investimento = java.util.Objects.requireNonNull(investimento);
     }
 
     public void realiza(Conta conta) {
-        conta.deposita(investimento.calcula(conta) * 0.75);
+        conta.deposita(investimento.calcula(conta) * PERCENTUAL_DE_RENDIMENTO_DEPOSITADO);
     }
 }
